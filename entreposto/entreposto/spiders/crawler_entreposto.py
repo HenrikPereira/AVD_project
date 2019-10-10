@@ -11,6 +11,8 @@ class MainItem(scrapy.Item):
     equip = scrapy.Field()
     logo = scrapy.Field()
     cars = scrapy.Field()
+    foto = scrapy.Field()
+    burl = scrapy.Field()
 
 class MySpider(scrapy.Spider):
     name = 'entrepostoauto'
@@ -21,68 +23,36 @@ class MySpider(scrapy.Spider):
 
     def parse(self, response):
         links = response.xpath("//*[@id='main']/section/div[2]/div[1]/div/section/ul/li/a/@href").extract()
-        #foto = FotoItem()
-        #foto['foto'] = self.BASE_URL + \
-        #               response.xpath("//section/div[2]/div[1]/div/section/div/aside/figure/img/@src").extract()
+
         for link in links:
             full_url = self.BASE_URL + link
             yield scrapy.Request(full_url, callback=self.parse_details)
 
+        while True:
+           next = self.driver.find_element_by_xpath('//*[@id="main"]/section/div[2]/div[2]/a[16]/@next')
+           try:
+               next.click()
+           except:
+               break
+
     def parse_details(self, response):
-        lista_final = []
+
+        def merge(list1, list2):
+            merged_list = tuple(zip(list1, list2))
+            return merged_list
+
         i = MainItem()
-        i['mar'] = response.xpath("//div/section[2]/div[1]/div[2]/h1/span/text()").extract()
-        i['mod'] = response.xpath("//div/section[2]/div[1]/div[2]/h1/text()").extract()
-        # i['cars']['mar']['mod']['ver'] = response.xpath("//div/section[2]/div[1]/div[2]/p[1]/text()").extract()
-        # i['cars']['mar']['mod']['logo'] = self.BASE_URL + response.xpath("//section[1]/div[2]/article/div[3]/picture/img/@src").extract()
-        # i['cars']['mar']['mod']['ver']['link'] = response.url
-        # i['cars']['mar']['mod']['ver']['preco'] = response.xpath("//div/section[2]/div[1]/div[2]/h2/text()[1]").extract()
-        # i['cars']['mar']['mod']['ver']['specs'] = response.xpath("//article/ul/li//text()").extract()
-        # i['cars']['mar']['mod']['ver']['equip'] = response.xpath("//article[1]/div/div/div/p/text()").extract()
+        dict = {}
+        i['mar'] = response.xpath("//div/section[2]/div[1]/div[2]/h1/span/text()").extract()[0]
+        i['mod'] = response.xpath("//div/section[2]/div[1]/div[2]/h1/text()").extract()[0]
+        i['ver'] = response.xpath("//div/section[2]/div[1]/div[2]/p[1]/text()").extract()[0]
+        i['logo'] = self.BASE_URL + response.xpath("//section[1]/div[2]/article/div[3]/picture/img/@src").extract()[0]
+        i['link'] = response.url
+        i['burl'] = self.BASE_URL
+        i['preco'] = response.xpath("//div/section[2]/div[1]/div[2]/h2/text()[1]").extract()[0]
+        i['specs'] = merge(response.xpath("//article/ul/li/text()").extract(),
+                           response.xpath("//article/ul/li/strong/text()").extract())
+        i['equip'] = response.xpath("//article[1]/div/div/div/p/text()").extract()
+        i['foto'] = response.xpath("//div[1]/div/div/article/div/@*").extract()
 
-        lista_final.append(i)
-        lista_act = []
-
-        for it in lista_final:
-            for n in range(len(it['mar'])):
-                sub = {}
-                sub['cars'] = {}
-                sub['cars']['mar'] = [it['mar'][n]]
-                sub['cars']['mod'] = [it['mod'][n]]
-
-                lista_act.append(sub)
-
-        return lista_act
-
-        # response.xpath("//section/div[2]/div[1]/div/section/div/aside/figure/img/@src").extract() --> img do carro
-        # response.xpath("//article/ul/li//text()").extract() --> especificações
-        # response.xpath("//article[1]/div/div/div/p/text()").extract() --> equipamento de série
-        # response.xpath("//section[1]/div[2]/article/div[3]/picture/img/@src").extract() --> logo marca
-        # response.xpath("//div/section[2]/div[1]/div[2]/h1//text()").extract() --> marca modelo
-        # response.xpath("//div/section[2]/div[1]/div[2]/p[1]/text()").extract() --> versão
-        # response.xpath("//div/section[2]/div[1]/div[2]/h2/text()[1]").extract() --> preço
-
-        # for line in response.xpath('//*[@id="main"]/section/div[2]/div[1]/div/section/div[1]/div[2]/p'):
-        #     yield {
-        #         'model': line.xpath('//*[@id="main"]/section/div[2]/div[1]/div/section/div[1]/div[2]/p/text()').extract_first(),
-        #         'link': line.xpath("//*[@id='main']/section/div[2]/div[1]/div/section/ul/li/a/@href").extract()
-        #     }
-
-        # uls = response.xpath('//*[@id="main"]/section/div[2]/div[1]/div/section/ul')
-        # item = {'model': ''}
-        # for ul in uls:
-        #     # for each ul, add a key value pair
-        #     item['model'][ul.xpath("//*[@id='main']/section/div[2]/div[1]/div/section/ul/li/p/text()").extract_first()] \
-        #         = {"link{}".format(i):
-        #                node for i, node in enumerate(ul.xpath("//*[@id='main']/section/div[2]/div[1]/div/section/ul/li/a/@href")
-        #                                              .getall())}
-        # # yield outside the loop
-
-
-        #yield item
-        #while True:
-        #    next = self.driver.find_element_by_xpath('//*[@id="main"]/section/div[2]/div[2]/a[16]')
-        #    try:
-        #        next.click()
-        #    except:
-        #        break
+        return i
