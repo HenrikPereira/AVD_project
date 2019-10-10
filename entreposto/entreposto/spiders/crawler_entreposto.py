@@ -17,7 +17,7 @@ class MainItem(scrapy.Item):
 class MySpider(scrapy.Spider):
     name = 'entrepostoauto'
     allowed_domains = ['entrepostoauto.pt']
-    start_urls = ['https://www.entrepostoauto.pt/viaturas/listagem?carType=novos&orderby=1&currentPage=1']
+    start_urls = ['https://www.entrepostoauto.pt/viaturas/listagem?carType=novos&orderby=1&currentPage=%s' % page for page in range(1,12)]
     BASE_URL = 'https://www.entrepostoauto.pt'
     custom_settings = {'DEPTH_LIMIT': 1}
 
@@ -42,7 +42,7 @@ class MySpider(scrapy.Spider):
             return merged_list
 
         i = MainItem()
-        dict = {}
+
         i['mar'] = response.xpath("//div/section[2]/div[1]/div[2]/h1/span/text()").extract()[0]
         i['mod'] = response.xpath("//div/section[2]/div[1]/div[2]/h1/text()").extract()[0]
         i['ver'] = response.xpath("//div/section[2]/div[1]/div[2]/p[1]/text()").extract()[0]
@@ -55,4 +55,4 @@ class MySpider(scrapy.Spider):
         i['equip'] = response.xpath("//article[1]/div/div/div/p/text()").extract()
         i['foto'] = response.xpath("//div[1]/div/div/article/div/@*").extract()
 
-        return i
+        yield i

@@ -93,7 +93,7 @@ class EntrepostoDownloaderMiddleware(object):
         #   installed downloader middleware will be called
         if request.url != 'https://www.entrepostoauto.pt/viaturas/listagem?carType=novos&orderby=1&currentPage=1':
             return None
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(3)
 
         driver.get(request.url)
         WebDriverWait(driver, 10).until(
