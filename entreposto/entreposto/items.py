@@ -7,8 +7,14 @@
 
 import scrapy
 
+class FotoItem(scrapy.Item):
+    foto = scrapy.Field()
 
-class EntrepostoItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class MainItem(scrapy.Item):
+    mar_mod = scrapy.Field()
+    ver = scrapy.Field()
+    preco = scrapy.Field()
+    link = scrapy.Field()
+    specs = scrapy.Field()
+    equip = scrapy.Field()
+    logo = scrapy.Field()
