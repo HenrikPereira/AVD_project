@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/entreposto/entreposto/spiders/crawler_entreposto.py" beforeDir="false" afterPath="$PROJECT_DIR$/entreposto/entreposto/spiders/crawler_entreposto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entreposto/teste.json" beforeDir="false" afterPath="$PROJECT_DIR$/entreposto/teste.json" afterDir="false" />
+    </list>
+    <list id="07075336-9d23-461c-8e40-6137d8988d85" name="Revert &quot;update temp - not final&quot;" comment="" />
+    <list id="ebf84d04-d7b2-4bfc-be02-982ce36dfa80" name="update temp - not final" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="true" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="8d26a2f3-1923-4ef6-98b4-859c02304983" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1S1jwjDnJXu0zb1994eMEoM6tJJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/entreposto" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project" />
+      <recent name="C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project\entreposto" />
+      <recent name="C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project\entreposto\entreposto\spiders" />
+      <recent name="C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project\entreposto\entreposto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project\entreposto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.crawler_entreposto">
+    <configuration name="crawler2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/entreposto/entreposto/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entreposto/entreposto/spiders/crawler2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawler_entreposto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/entreposto/entreposto/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entreposto/entreposto/spiders/crawler_entreposto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.crawler_entreposto" />
+        <item itemvalue="Python.crawler2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="" />
+      <changelist id="07075336-9d23-461c-8e40-6137d8988d85" name="Revert &quot;update temp - not final&quot;" comment="" />
+      <changelist id="ebf84d04-d7b2-4bfc-be02-982ce36dfa80" name="update temp - not final" comment="" />
+      <created>1570494219677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570494219677</updated>
+      <workItem from="1570494225432" duration="11274000" />
+      <workItem from="1570524257630" duration="15516000" />
+      <workItem from="1570634480860" duration="7625000" />
+      <workItem from="1570651108233" duration="33564000" />
+      <workItem from="1570737220038" duration="220000" />
+      <workItem from="1570738242822" duration="4893000" />
+      <workItem from="1570837545103" duration="80000" />
+      <workItem from="1570837643494" duration="10019000" />
+      <workItem from="1570849573576" duration="1273000" />
+      <workItem from="1570908354055" duration="5453000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize project">
+      <created>1570659177317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570659177317</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialize project">
+      <created>1570659216506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570659216506</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update temp - not final">
+      <created>1570682190170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570682190170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update temp - not final">
+      <created>1570708999719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570708999719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update temp - not final">
+      <created>1570737328107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570737328107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update temp - not final">
+      <created>1570741950602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570741950602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update temp - not final">
+      <created>1570843309111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570843309111</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update temp - not final">
+      <created>1570848742039</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570848742039</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update temp - not final">
+      <created>1570850674564</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570850674564</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update temp - not final">
+      <created>1570961613872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570961613872</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update temp - not final">
+      <created>1570962777986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570962777986</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Revert &quot;update temp - not final&quot;&#10;&#10;This reverts commit 27bc862d">
+      <created>1570962815550</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570962815550</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize project" />
+    <MESSAGE value="update temp - not final" />
+    <MESSAGE value="Revert &quot;update temp - not final&quot;&#10;&#10;This reverts commit 27bc862d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;update temp - not final&quot;&#10;&#10;This reverts commit 27bc862d" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project$crawler2.coverage" NAME="crawler2 Coverage Results" MODIFIED="1570529348538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entreposto/entreposto/spiders" />
+    <SUITE FILE_PATH="coverage/project$crawler_entreposto.coverage" NAME="crawler_entreposto Coverage Results" MODIFIED="1570530416641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entreposto/entreposto/spiders" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
