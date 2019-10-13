@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/entreposto/entreposto/spiders/crawler_entreposto.py" beforeDir="false" afterPath="$PROJECT_DIR$/entreposto/entreposto/spiders/crawler_entreposto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entreposto/teste.json" beforeDir="false" afterPath="$PROJECT_DIR$/entreposto/teste.json" afterDir="false" />
     </list>
     <list id="07075336-9d23-461c-8e40-6137d8988d85" name="Revert &quot;update temp - not final&quot;" comment="" />
@@ -174,7 +173,7 @@
       <workItem from="1570837545103" duration="80000" />
       <workItem from="1570837643494" duration="10019000" />
       <workItem from="1570849573576" duration="1273000" />
-      <workItem from="1570908354055" duration="5453000" />
+      <workItem from="1570908354055" duration="5714000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <created>1570659177317</created>
@@ -260,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570962815550</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Revert to previous version and new branch to make the spider able to scrape a list of urls instead of paginating (not possible by base url, and js)&#10;&#10;This reverts commit 27bc862d">
+      <created>1570965560167</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570965560167</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +303,8 @@
     <MESSAGE value="Initialize project" />
     <MESSAGE value="update temp - not final" />
     <MESSAGE value="Revert &quot;update temp - not final&quot;&#10;&#10;This reverts commit 27bc862d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;update temp - not final&quot;&#10;&#10;This reverts commit 27bc862d" />
+    <MESSAGE value="Revert to previous version and new branch to make the spider able to scrape a list of urls instead of paginating (not possible by base url, and js)&#10;&#10;This reverts commit 27bc862d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert to previous version and new branch to make the spider able to scrape a list of urls instead of paginating (not possible by base url, and js)&#10;&#10;This reverts commit 27bc862d" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$crawler2.coverage" NAME="crawler2 Coverage Results" MODIFIED="1570529348538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entreposto/entreposto/spiders" />
