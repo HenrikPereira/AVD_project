@@ -20,7 +20,7 @@ class MySpider(scrapy.Spider):
     name = 'entrepostoauto'
     allowed_domains = ['entrepostoauto.pt']
     start_urls = [link
-                  for sub in pd.read_csv(r'\Users\henri\OneDrive\Documentos\EDSA\AVD\project\dados_entreposto.csv')
+                  for sub in pd.read_csv(r'C:\Users\henri\OneDrive\Documentos\EDSA\AVD\project\Data\dados_entreposto.csv')
                       .values.tolist()
                   for link in sub]
     BASE_URL = 'https://www.entrepostoauto.pt'
