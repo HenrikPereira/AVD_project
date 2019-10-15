@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/CategoriesMaster.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScoreCar_v0.3_13102019.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCar_v0.3_13102019.pbix" afterDir="false" />
     </list>
     <list id="07075336-9d23-461c-8e40-6137d8988d85" name="Revert &quot;update temp - not final&quot;" comment="" />
@@ -178,7 +178,7 @@
       <workItem from="1570908354055" duration="8915000" />
       <workItem from="1571003803430" duration="528000" />
       <workItem from="1571004366375" duration="23406000" />
-      <workItem from="1571166082888" duration="618000" />
+      <workItem from="1571166082888" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <created>1570659177317</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571099646205</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update 14/10/2019">
+      <created>1571177447967</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1571177447967</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

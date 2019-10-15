@@ -1,0 +1,31 @@
+Categoria;Especificação
+Performance;Cilidrada (cc) 
+Performance;Potência 
+Performance;Acelaração dos 0-100km/h 
+Mecânica;Nº Cilindros 
+Mecânica;Transmissão 
+Mecânica;Tipo de Caixa de Veloc
+Performance;Número de Velocidades
+Performance;Velocidade máxima (km/h)
+Mecânica;Motor Configuração
+Performance;Regime Potência Max. (rpm)
+Performance;Binário Max. (nm) / RPM
+Performance;Regime Binário Max. (rpm)
+Mecânica;Travões Traseiros
+Mecânica;Travões Dianteiros
+Consumo;Combustível 
+Consumo;Consumo Urbano (l/100kms) 
+Consumo;Consumo Extra urbano (l/100kms) 
+Consumo;Consumo Combinado (l/100kms) 
+Consumo;Emissões CO2  - Combinado (g/km) 
+Dimensões;Categoria 
+Dimensões;N.º de Portas 
+Dimensões;N.º de Lugares 
+Dimensões;Comprimento (mm) 
+Dimensões;Largura (mm) 
+Dimensões;Altura (mm) 
+Dimensões;Distância entre Eixos (mm) 
+Dimensões;Capacidade da Mala (l) 
+Consumo;Capacidade do Dep. Combustível (l) 
+Dimensões;Tara *veículo em chassi 
+Dimensões;Peso Bruto 
