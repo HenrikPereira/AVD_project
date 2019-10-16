@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/CategoriesMaster.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreCar_v0.3_13102019.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCar_v0.3_13102019.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/2020 FE Guide-release dates before 10_2_2019-no sales- 10_1_2019public.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/2020 FE Guide-release dates before 10_2_2019-no sales- 10_1_2019public.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/S_Tarifas_Net.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SmartWay Vehicle List for MY 2020.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/SmartWay Vehicle List for MY 2020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SmartWay Vehicle List for MY 2020.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/SmartWay Vehicle List for MY 2020.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/all_alpha_20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/all_alpha_20.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/all_alpha_20.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/all_alpha_20.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/emissions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/emissions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/portugal_municipios.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/portugal_municipios.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/vehicles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/limbo/vehicles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreCar.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCar.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combustíveis.pbix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entreposto_dashboard.pbix" beforeDir="false" />
     </list>
     <list id="07075336-9d23-461c-8e40-6137d8988d85" name="Revert &quot;update temp - not final&quot;" comment="" />
     <list id="ebf84d04-d7b2-4bfc-be02-982ce36dfa80" name="update temp - not final" comment="" />
@@ -67,7 +79,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/entreposto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,6 +115,74 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.crawler_entreposto">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="crawler2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +227,66 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="EDSBproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.crawler_entreposto" />
@@ -178,7 +318,11 @@
       <workItem from="1570908354055" duration="8915000" />
       <workItem from="1571003803430" duration="528000" />
       <workItem from="1571004366375" duration="23406000" />
-      <workItem from="1571166082888" duration="928000" />
+      <workItem from="1571166082888" duration="2444000" />
+      <workItem from="1571247300682" duration="364000" />
+      <workItem from="1571247674860" duration="39000" />
+      <workItem from="1571247758466" duration="637000" />
+      <workItem from="1571257696458" duration="2167000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <created>1570659177317</created>
@@ -327,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571177447967</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update 14/10/2019">
+      <created>1571177733078</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571177733078</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
