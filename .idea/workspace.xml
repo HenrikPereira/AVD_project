@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="fixup! Update">
+    <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="squash! Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScoreCar.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCar.pbix" afterDir="false" />
     </list>
@@ -41,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="eeeeb9787a51c4c1a73319b1fec19e7c40db4123" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -280,6 +280,8 @@
       <list>
         <item itemvalue="Python.crawler_entreposto" />
         <item itemvalue="Python.crawler2" />
+        <item itemvalue="Python.crawler_entreposto" />
+        <item itemvalue="Python.crawler2" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +314,7 @@
       <workItem from="1571247674860" duration="39000" />
       <workItem from="1571247758466" duration="637000" />
       <workItem from="1571257696458" duration="2167000" />
+      <workItem from="1571847067646" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <created>1570659177317</created>
@@ -467,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571177733078</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update">
+      <created>1571797714614</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571797714614</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update">
+      <created>1571847091587</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571847091587</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,9 +551,9 @@
     <MESSAGE value="Revert to previous version and new branch to make the spider able to scrape a list of urls instead of paginating (not possible by base url, and js)&#10;&#10;This reverts commit 27bc862d" />
     <MESSAGE value="Update&#10;&#10;This reverts commit 27bc862d" />
     <MESSAGE value="fuel information live" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Update 14/10/2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 14/10/2019" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
