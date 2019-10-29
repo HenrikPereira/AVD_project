@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="squash! Update">
+    <list default="true" id="50d43579-4a15-4551-9d73-10d4202b9817" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ScoreCar.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreCar.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCar.pbix" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarScorecard.docx" beforeDir="false" />
     </list>
     <list id="07075336-9d23-461c-8e40-6137d8988d85" name="Revert &quot;update temp - not final&quot;" comment="" />
     <list id="a1feb0ed-13ab-4498-a8e8-d3758a87ebd0" name="Revert &quot;Update&quot;" comment="Revert &quot;Update&quot;&#10;&#10;This reverts commit 304a5ee5" />
@@ -315,6 +316,9 @@
       <workItem from="1571247758466" duration="637000" />
       <workItem from="1571257696458" duration="2167000" />
       <workItem from="1571847067646" duration="653000" />
+      <workItem from="1571875373737" duration="258000" />
+      <workItem from="1572017558970" duration="2326000" />
+      <workItem from="1572391242001" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <created>1570659177317</created>
@@ -484,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571847091587</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Pre-final Update">
+      <created>1571875416699</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571875416699</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Pre-final Update">
+      <created>1572310401316</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1572310401316</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +571,8 @@
     <MESSAGE value="fuel information live" />
     <MESSAGE value="Update 14/10/2019" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Pre-final Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pre-final Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
